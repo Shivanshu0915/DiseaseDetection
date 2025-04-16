@@ -138,7 +138,7 @@ const MedicalChatbot = () => {
       <div className="flex items-center gap-3 mb-4">
         <button
           onClick={goBack}
-          className="p-2 bg-white rounded-full shadow hover:bg-gray-100 transition"
+          className="p-2 bg-white rounded-full shadow hover:bg-gray-100 transition cursor-pointer"
         >
           <ArrowLeftIcon className="h-5 w-5 text-blue-600" />
         </button>
@@ -177,7 +177,7 @@ const MedicalChatbot = () => {
         />
         <button
           onClick={handleSend}
-          className="px-5 py-2 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition shadow"
+          className="px-5 py-2 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition shadow cursor-pointer"
         >
           Send
         </button>

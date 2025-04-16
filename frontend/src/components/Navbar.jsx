@@ -9,7 +9,7 @@ export function Navbar() {
                 <Link to="/">
                     <div className="flex items-center">
                         <div className="font-sans text-2xl font-bold text-[#23ACEB] px-2 cursor-pointer">
-                            HeathWise
+                            HealthWise
                         </div>
                     </div>
                 </Link>
@@ -21,9 +21,11 @@ export function Navbar() {
                     <a href="#diseaseDetection" className="hover:text-[#23ACEB]">
                         Disease Detection
                     </a>
-                    <a href="#chat" className="hover:text-[#23ACEB]">
+                    <Link to="/chat">
+                    <div className="hover:text-[#23ACEB]">
                         Chat with Bot
-                    </a>
+                    </div>
+                    </Link>
                     <a href="#about" className="hover:text-[#23ACEB]">
                         About
                     </a>

@@ -14,7 +14,7 @@ const StartPage = () => {
 
 
   return (
-    <div id="home" className="min-h-[85vh] bg-gradient-to-b from-white to-blue-100 px-4 py-36">
+    <div id="home" className="min-h-[91vh] bg-gradient-to-b from-white to-blue-100 px-4 py-36">
       <div className=" flex flex-col items-center justify-between gap-10 md:flex-row md:items-center md:justify-around md:gap-x-15">
         
         {/* Left Section */}

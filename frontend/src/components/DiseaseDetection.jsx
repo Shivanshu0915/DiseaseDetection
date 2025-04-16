@@ -43,10 +43,10 @@ const DiseaseDetection = () => {
             icon={<FaVirus className="text-white text-2xl" />}
             title="Insurance coverage Assessment"
             subtitle="Evaluate your health insurance factors"
-            description="Our COVID-19 risk assessment evaluates symptoms, exposure history, vaccination status, and other relevant factors to assess your risk level."
+            description="We analyze your health data, lifestyle, age, and medical history to estimate the potential insurance coverage you may be eligible for."
             color="bg-orange-400"
             hover="hover:bg-orange-600"
-            dlink="/covid"
+            dlink="/insurance"
           />
         </div>
       </div>

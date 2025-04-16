@@ -35,13 +35,13 @@ const teamMembers = [
     name: "Shashwat Mishra",
     section: "D",
     branch: "Computer Science",
-    regNo: "20233281",
+    regNo: "20233261",
   }
 ];
 
 const TeamPage = () => {
   return (
-    <div id="members" className="bg-purple-50 py-24 px-6 md:px-20">
+    <div id="members" className="bg-white py-24 px-6 md:px-20">
       <div className="text-center mb-10">
         {/* <h2 className="text-3xl font-bold text-blue-500 mb-2">Our Team</h2> */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Our Team</h2>
@@ -56,7 +56,7 @@ const TeamPage = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300"
+            className="bg-blue-50 p-6 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300"
           >
             {/* Initial Circle */}
             <div className="mx-auto mb-4 w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-purple-300 flex items-center justify-center text-white text-xl font-semibold">
